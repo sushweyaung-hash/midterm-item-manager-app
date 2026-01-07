@@ -1,0 +1,96 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+}
+
+/* Header */
+#h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 18px 0 10px 0;
+}
+
+/* Make the content area NOT full screen (like the expected UI) */
+#data-area {
+  max-width: 1100px;
+}
+
+/* Table */
+.item-table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+
+.item-table th,
+.item-table td {
+  border-bottom: 1px solid black;
+  padding: 6px 8px;
+  vertical-align: middle;
+}
+
+/* Column sizing (closer to screenshot) */
+#col-item-id {
+  width: 50px;
+}
+#col-item-name {
+  width: 520px;
+}
+#col-item-category {
+  width: 200px;
+}
+#col-item-price {
+  width: 150px;
+}
+#col-item-action {
+  width: 120px;
+}
+
+/* Form controls in last row */
+.item-table input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.item-table select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.item-table input[type="number"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Add Item button */
+.item-table button {
+  padding: 4px 10px;
+  font-size: 0.85rem;
+}
+
+/* Icons */
+.item-table img {
+  vertical-align: middle;
+}
+
+/* Error message */
+#error-message {
+  margin-top: 6px;
+  color: red;
+  font-size: 0.85rem;
+}
+
+/* Add Item button styling */
+.item-table button {
+  padding: 4px 10px;
+  font-size: 0.85rem;
+  background-color: #2f5fd7; /* blue */
+  color: white;
+  border: 1px solid #2f5fd7;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.item-table button:hover {
+  background-color: #244bb5;
+}
